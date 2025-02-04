@@ -2,12 +2,28 @@
 #EXTINF:-1 tvg-id="1" group-title="Kids" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/440px-2014_Disney_Channel_logo.svg.png",Disney SD
 http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/117791.ts
 #EXTINF:-1 tvg-id="2" group-title="Movies" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Star_Gold_2020.svg/1376px-Star_Gold_2020.svg.png",Star Gold HD
-http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/117791.ts
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/72141.ts
 #EXTINF:-1 tvg-id="3" group-title="Music" tvg-language="Bengali" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700018T7_20240710T022250SQUARE.png",Sangeet Bangla
 https://jmp2.uk/sam-INBD4700018T7.m3u8
 #EXTINF:-1 tvg-id="4" group-title="Movies" tvg-language="Bengali" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/02/Jalsha_Movies_logo_%282011%29.png/revision/latest?cb=20210423100832",Jalsha Movies HD
 http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34725.ts
-#EXTINF:-1 tvg-id="5" group-title="Movies" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Colors_Bangla.png/340px-Colors_Bangla.png",Colors Bangla HD
+#EXTINF:-1 tvg-id="5" group-title="Entertainment" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Colors_Bangla.png/340px-Colors_Bangla.png",Colors Bangla HD
 http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34730.ts
 #EXTINF:-1 tvg-id="6" group-title="Movies" tvg-language="Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png",Sony Max HD
 https://live.drmlive-02.workers.dev/sliv/maxhd.m3u8
+#EXTINF:-1 tvg-id="7" group-title="Entertainment" tvg-language="Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png",Sony HD
+https://live.drmlive-02.workers.dev/sliv/sony.m3u8
+#EXTINF:-1 tvg-id="8" group-title="Movies" tvg-language="Hindi" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-tvpictureshd/channel_list/1170x658withlog1476130363.png",& Pictures HD
+https://live.drmlive-02.workers.dev/zee/tvpictureshd.m3u8
+#EXTINF:-1 tvg-id="9" group-title="Movies" tvg-language="English" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-channel_2105335046/channel_list/1170x658379547401.png",& Flix HD
+https://live.drmlive-02.workers.dev/zee/channel_2105335046.m3u8
+#EXTINF:-1 tvg-id="10" group-title="Movies" tvg-language="Hindi" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-209/channel_list/1170x658withlogo358457080.png",& Xplor HD
+https://live.drmlive-02.workers.dev/zee/209.m3u8
+#EXTINF:-1 tvg-id="11" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-tvhd_0/channel_list/1170x658withlogo378606665.png",& Tv HD
+https://live.drmlive-02.workers.dev/zee/tvhd_0.m3u8
+#EXTINF:-1 tvg-id="12" group-title="Music" tvg-language="Hindi" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1700003HF_20240904T091813SQUARE.png",Mastiii
+https://jmp2.uk/sam-IN1700003HF.m3u8
+#EXTINF:-1 tvg-id="13" group-title="Music" tvg-language="Hindi" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700015M0_20240731T012453SQUARE.png",Music India
+https://jmp2.uk/sam-INBD4700015M0.m3u8
+#EXTINF:-1 tvg-id="14" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/89/SS1Hindi.jpg/revision/latest?cb=20191214225552",Star Sports 1 Hindi
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/1090636.ts
