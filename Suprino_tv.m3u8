@@ -1,11 +1,11 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1" group-title="Kids" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/440px-2014_Disney_Channel_logo.svg.png",Disney SD
-http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/117791.ts
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/117791.m3u8
 #EXTINF:-1 tvg-id="2" group-title="Movies" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Star_Gold_2020.svg/1376px-Star_Gold_2020.svg.png",Star Gold HD
-http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/117791.ts
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/117791.m3u8
 #EXTINF:-1 tvg-id="3" group-title="Music" tvg-language="Bengali" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700018T7_20240710T022250SQUARE.png",Sangeet Bangla
 https://jmp2.uk/sam-INBD4700018T7.m3u8
 #EXTINF:-1 tvg-id="4" group-title="Movies" tvg-language="Bengali" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/02/Jalsha_Movies_logo_%282011%29.png/revision/latest?cb=20210423100832",Jalsha Movies HD
-http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34725.ts
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34725.m3u8
 #EXTINF:-1 tvg-id="5" group-title="Movies" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Colors_Bangla.png/340px-Colors_Bangla.png",Colors Bangla HD
-http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34730.ts
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34730.m3u8
