@@ -27,3 +27,21 @@ https://jmp2.uk/sam-IN1700003HF.m3u8
 https://jmp2.uk/sam-INBD4700015M0.m3u8
 #EXTINF:-1 tvg-id="14" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/89/SS1Hindi.jpg/revision/latest?cb=20191214225552",Star Sports 1 Hindi
 http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/1090636.ts
+#EXTINF:-1 tvg-id="15" group-title="Movies" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Star_Gold_2.svg/1376px-Star_Gold_2.svg.png?20220425150503",Star Gold 2 HD
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/1020178.ts
+#EXTINF:-1 tvg-id="16" group-title="Movies" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/hi/b/b5/Star_Gold_Select.jpg?20221112103826",Star Gold Select HD
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/1020180.ts
+#EXTINF:-1 tvg-id="17" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7b/Star_Bharat_2022.png/revision/latest?cb=20220802114101",Star Bharat HD
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/741639.ts
+#EXTINF:-1 tvg-id="18" group-title="Movies" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/2560px-STAR_Movies_logo.svg.png",Star Movies HD
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/1020182.ts
+#EXTINF:-1 tvg-id="19" group-title="Movies" tvg-language="English" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",Sony Pix HD
+https://live.drmlive-02.workers.dev/sliv/pix.m3u8
+#EXTINF:-1 tvg-id="20" group-title="Movies" tvg-language="English" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-9z5543514/channel_list/1170x658withlogo7717294688b1c3f4d4c824099903d383846fa1b16.png",& Prive HD
+https://live.drmlive-02.workers.dev/zee/9z5543514.m3u8
+#EXTINF:-1 tvg-id="21" group-title="Movies" tvg-language="English" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/SMSHD.png/revision/latest?cb=20240313194438",Star Movies Select HD
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/34687.ts
+#EXTINF:-1 tvg-id="22" group-title="Movies" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6a/SUMovies.jpg/revision/latest?cb=20240313172157",Star Utsav Movies
+http://suprino.xyz:80/live/PMF3J9X/BV7HG8H/72145.ts
+#EXTINF:-1 tvg-id="23" group-title="Kids" tvg-language="Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",Sony Yay
+https://live.drmlive-02.workers.dev/sliv/yay.m3u8
