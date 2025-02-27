@@ -6,6 +6,25 @@
     "itemsTotal": 1
   },
   "packages": [
-    { "id": "vlc.lgapp", "version": "1.0.0", "type": "web", "title": "VLC Media Player", "appDescription": "VLC Media Player for LG webOS TV.", "iconUri": "https://raw.githubusercontent.com/itsRealM12C/launchingapps/refs/heads/main/apps/vlc.lgapp/icon.png", "sourceUrl": "https://github.com/webosappclub/webosappclub.github.io/", "rootRequired": false, "ipkUrl": "https://github.com/itsRealM12C/launchingapps/raw/refs/heads/main/apps/vlc.lgapp/com.hobbyistsoftware.vlcremote_1.1.0_all.ipk", "ipkHash": { "sha256": "f793e42fb3e0a35460c3a7f12bc55beb7228ff53f814aa76d3fc38a1bfe49372" }, "ipkSize": 358925 }, "shortDescription": "VLC Media Player for LG webOS TV.", "fullDescriptionUrl": "https://itsrealm12c.github.io/launchingapps/apps/vlc.lgapp" }
+    {
+      "id": "vlc.lgapp",
+      "title": "VLC Media Player",
+      "iconUri": "https://upload.wikimedia.org/wikipedia/commons/3/38/VLC_icon.png?20150202150351",
+      "manifest": {
+        "id": "vlc.lgapp",
+        "version": "1.0.0",
+        "type": "web",
+        "title": "VLC Media Player",
+        "iconUri": "https://upload.wikimedia.org/wikipedia/commons/3/38/VLC_icon.png?20150202150351",
+        "sourceUrl": "https://github.com/DjVreditel/tiktok-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://www.dropbox.com/scl/fi/c72fie28huks4nyh2d72r/com.hobbyistsoftware.vlcremote_1.1.0_all.ipk?rlkey=t5x0bc1s49v7eb07k2lj96mal&st=ddnl5sm3&dl=1",
+        "ipkHash": {
+          "sha256": "8d7f30ba594189f230ef93811d78c408798b1073d8dfde76c2c902968f39d69c"
+        }
+      },
+      "shortDescription": "Unofficial VlC Player App for WebOS with extended features",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/DjVreditel/tiktok-webos/main/HomebrewChannel/index.html"
+    }
   ]
 }
