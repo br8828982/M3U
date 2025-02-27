@@ -1,0 +1,58 @@
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Sony Liv",SONY HD
+https://live.drmlive-02.workers.dev/sliv/sony.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Sony Liv",SONY SAB HD
+https://live.drmlive-02.workers.dev/sliv/sab.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqnmcXdx/Sony-KAL.png" group-title="Sony Liv",SONY KAL
+https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Sony Liv",SONY PAL
+https://live.drmlive-02.workers.dev/sliv/pal.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Sony Liv",SONY WAH
+https://live.drmlive-02.workers.dev/sliv/wah.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Sony Liv",SONY MAX
+https://live.drmlive-02.workers.dev/sliv/max.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Sony Liv",SONY MAX HD
+https://live.drmlive-02.workers.dev/sliv/maxhd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Sony Liv",SONY MAX2
+https://live.drmlive-02.workers.dev/sliv/max2.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sony Liv",SONY TEN 1
+https://live.drmlive-02.workers.dev/sliv/ten1.m3u8
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sony Liv",SONY TEN 2
+https://live.drmlive-02.workers.dev/sliv/ten2.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sony Liv",SONY TEN 3
+https://live.drmlive-02.workers.dev/sliv/ten3.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="Sony Liv",SONY TEN 4 
+https://live.drmlive-02.workers.dev/sliv/ten4.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sony Liv",SONY TEN 5 
+https://live.drmlive-02.workers.dev/sliv/ten5.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sony Liv",SONY TEN 1 HD
+https://live.drmlive-02.workers.dev/sliv/ten1hd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sony Liv",SONY TEN 2 HD
+https://live.drmlive-02.workers.dev/sliv/ten2hd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sony Liv",SONY TEN 3 HD
+https://live.drmlive-02.workers.dev/sliv/ten3hd.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sony Liv",SONY TEN 4 HD
+https://live.drmlive-02.workers.dev/sliv/ten4hd.m3u8
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sony Liv",SONY TEN 5 HD
+https://live.drmlive-02.workers.dev/sliv/ten5hd.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Sony Liv",SONY BBC EARTH
+https://live.drmlive-02.workers.dev/sliv/bbc.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Sony Liv",SONY YAY
+https://live.drmlive-02.workers.dev/sliv/yay.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Sony Liv",SONY PIX HD
+https://live.drmlive-02.workers.dev/sliv/pix.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Sony Liv",SONY MARATHI
+https://live.drmlive-02.workers.dev/sliv/marathi.m3u8
+#EXTINF:-1 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Sony Liv",SONY AATH 
+https://live.drmlive-02.workers.dev/sliv/aath.m3u8
+#EXTINF:-1 channel-id="samsung-INBD4700018T7" tvg-id="INBD4700018T7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700018T7_20240710T022250SQUARE.png" group-title="Music" tvg-chno="1450",Sangeet Bangla
+https://jmp2.uk/sam-INBD4700018T7.m3u8
+#EXTINF:-1 channel-id="samsung-IN1700003HF" tvg-id="IN1700003HF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1700003HF_20240904T091813SQUARE.png" group-title="Music" tvg-chno="1433",Mastiii
+https://jmp2.uk/sam-IN1700003HF.m3u8
+#EXTINF:-1 channel-id="samsung-INBC2800013L6" tvg-id="INBC2800013L6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800013L6_20240131T032422SQUARE.png_20240131032423.png" group-title="Music" tvg-chno="1437",9X Jalwa
+https://jmp2.uk/sam-INBC2800013L6.m3u8
+#EXTINF:-1 channel-id="samsung-INBD4700015M0" tvg-id="INBD4700015M0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700015M0_20240731T012453SQUARE.png" group-title="Music" tvg-chno="1438",Music India
+https://jmp2.uk/sam-INBD4700015M0.m3u8
+#EXTINF:-1 channel-id="samsung-INBC2800011JL" tvg-id="INBC2800011JL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800011JL_20240131T032430SQUARE.png_20240131032431.png" group-title="Music" tvg-chno="1439",9X Tashan
+https://jmp2.uk/sam-INBC2800011JL.m3u8
+#EXTINF:-1 channel-id="samsung-INBC28000144H" tvg-id="INBC28000144H" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC28000144H_20240131T032425SQUARE.png_20240131032426.png" group-title="Music" tvg-chno="1443",9X Jhakaas
+https://jmp2.uk/sam-INBC28000144H.m3u8
