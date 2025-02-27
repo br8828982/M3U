@@ -18,9 +18,9 @@
         "iconUri": "https://upload.wikimedia.org/wikipedia/commons/3/38/VLC_icon.png?20150202150351",
         "sourceUrl": "https://github.com/DjVreditel/tiktok-webos",
         "rootRequired": false,
-        "ipkUrl": "https://www.dropbox.com/scl/fi/c72fie28huks4nyh2d72r/com.hobbyistsoftware.vlcremote_1.1.0_all.ipk?rlkey=t5x0bc1s49v7eb07k2lj96mal&st=ddnl5sm3&dl=1",
+        "ipkUrl": "https://www.dropbox.com/scl/fi/fugjpuzngvo228hc7qkbz/com.tidal.tv_1.0.0_all.ipk?rlkey=yc3sxrwgzbluoqrbw4y8bz3pn&st=pll386f1&dl=1",
         "ipkHash": {
-          "sha256": "8d7f30ba594189f230ef93811d78c408798b1073d8dfde76c2c902968f39d69c"
+          "sha256": "c8554c0b8156aaf5c6ce65259e0ac82a1b8e43204b90c42ee88f3f94831eabf4"
         }
       },
       "shortDescription": "Unofficial VlC Player App for WebOS with extended features",
