@@ -6,25 +6,6 @@
     "itemsTotal": 1
   },
   "packages": [
-    {
-      "id": "tiktok.djvreditel.v1",
-      "title": "TikTok",
-      "iconUri": "https://raw.githubusercontent.com/DjVreditel/tiktok-webos/main/assets/largeIcon.png",
-      "manifest": {
-        "id": "tiktok.djvreditel.v1",
-        "version": "1.1.0",
-        "type": "web",
-        "title": "TikTok",
-        "iconUri": "https://raw.githubusercontent.com/DjVreditel/tiktok-webos/main/assets/largeIcon.png",
-        "sourceUrl": "https://github.com/DjVreditel/tiktok-webos",
-        "rootRequired": false,
-        "ipkUrl": "https://drive.usercontent.google.com/uc?id=10lgcgX8Tp58hK2tAMD_MTyj4GWTXAKre&export=download",
-        "ipkHash": {
-          "sha256": "acda05efc34d6c252d83057db10da0d53c171822874612a1a4a8fcba66d404f4"
-        }
-      },
-      "shortDescription": "Unofficial TikTok App for WebOS with extended features",
-      "fullDescriptionUrl": "https://raw.githubusercontent.com/DjVreditel/tiktok-webos/main/HomebrewChannel/index.html"
-    }
+    { "id": "vlc.lgapp", "version": "1.0.0", "type": "web", "title": "VLC Media Player", "appDescription": "VLC Media Player for LG webOS TV.", "iconUri": "https://raw.githubusercontent.com/itsRealM12C/launchingapps/refs/heads/main/apps/vlc.lgapp/icon.png", "sourceUrl": "https://github.com/webosappclub/webosappclub.github.io/", "rootRequired": false, "ipkUrl": "https://github.com/itsRealM12C/launchingapps/raw/refs/heads/main/apps/vlc.lgapp/com.hobbyistsoftware.vlcremote_1.1.0_all.ipk", "ipkHash": { "sha256": "f793e42fb3e0a35460c3a7f12bc55beb7228ff53f814aa76d3fc38a1bfe49372" }, "ipkSize": 358925 }, "shortDescription": "VLC Media Player for LG webOS TV.", "fullDescriptionUrl": "https://itsrealm12c.github.io/launchingapps/apps/vlc.lgapp" }
   ]
 }
