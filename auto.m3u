@@ -333,10 +333,10 @@ https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
 
-#EXTINF:-1 tvg-logo="https://ev-img-cdn-lb.shoq.com.pk/prd-peg-data/default/images/logos/live/Express.png" group-title="Pakistan",Express Entertainment
+#EXTINF:-1 tvg-logo="https://ev-img-cdn-lb.shoq.com.pk/prd-peg-data/default/images/logos/live/Hum.png" group-title="Shoq",Hum TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=
-https://live2.shoq.com.pk/live/eds/Express_Entertainment/DASH/Express_Entertainment.mpd
+#KODIPROP:inputstream.adaptive.license_key=83404dd4292fec9e27173696f6e42dee:a9dd477034d4fb2e7e5dc7c21ce73fed
+https://live2.shoq.com.pk/live/eds/HUM_TV/DASH/HUM_TV.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="Hindi Movies" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/hindi-movies.png" group-title="Tplay",Hindi Movies
 https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
