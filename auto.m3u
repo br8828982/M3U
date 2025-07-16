@@ -333,38 +333,7 @@ https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
 
-#EXTINF:-1 tvg-logo="https://ev-img-cdn-lb.shoq.com.pk/prd-peg-data/default/images/logos/live/Hum.png" group-title="Pakistan",Hum TV
+#EXTINF:-1 tvg-logo="https://ev-img-cdn-lb.shoq.com.pk/prd-peg-data/default/images/logos/live/Hum.png" group-title="Drama",Hum TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=83404dd4292fec9e27173696f6e42dee:a9dd477034d4fb2e7e5dc7c21ce73fed
 https://live2.shoq.com.pk/live/eds/HUM_TV/DASH/HUM_TV.mpd
-
-#EXTINF:-1 tvg-id="" tvg-name="Hindi Movies" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/hindi-movies.png" group-title="Tplay",Hindi Movies
-https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Bangla Movies" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/bangla-movies.png" group-title="Tplay",Bangla Movies
-https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubbed Movies" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/dubbed-movies.png" group-title="Tplay",Dubbed Movies
-https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Bantul" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/bantul.png" group-title="Tplay",Bantul
-https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Gopal Bhar" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/gopal-bhar.png" group-title="Tplay",Gopal Bhar
-https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Motu Patlu" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/motu-patlu.png" group-title="Tplay",Motu Patlu
-https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Shinchan" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/shinchan.png" group-title="Tplay",Shinchan
-https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Doraemon" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/doraemon.png" group-title="Tplay",Doraemon
-https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Hindi Music" tvg-logo="https://raw.githubusercontent.com/tplaylive/stream/main/logos/hindi-songs.png" group-title="Tplay",Hindi Music
-https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
-https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
-
