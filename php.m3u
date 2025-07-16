@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="1373" tvg-name="Disney Channel" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png" group-title="JIOTV+ Kids" group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Disney Channel
+#EXTINF:-1 tvg-id="1373" tvg-name="Disney Channel" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
 https://playflix.icu/mahesh/Jiotv/manifest.php?id=1373
@@ -114,6 +114,46 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=756
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b4ea22699965dcfa9883cb7994d7202:9107a849f44403873bffedac6a6cabdc
 https://playflix.icu/mahesh/Jiotv/manifest.php?id=1369
+
+#EXTINF:-1 tvg-id="1657" tvg-name="Colors Bangla Cinema" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png",Colors Bangla Cinema
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6f7b7241b2935a909d389fe318e5baaa:65783311644973348f359dc154bb41db
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=1657
+
+#EXTINF:-1 tvg-id="1450" tvg-name="Colors Cineplex Superhit" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Rishtey_Cineplex.png",Colors Cineplex Superhit
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=234f3bf300e75c93a3825d54b1c0520b:53a4b6981fb1872c0ad4d197066e8c1f
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=1450
+
+#EXTINF:-1 tvg-id="1763" tvg-name="Colors Cineplex Bollywood" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Cineplex_Bollywood.png",Colors Cineplex Bollywood
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=061b3f55b6695e978b208f5117e609ee:9a6da304db8cfb545805d3152a5d66ed
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=1763
+
+#EXTINF:-1 tvg-id="1477" tvg-name="Colors Cineplex HD" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png",Colors Cineplex HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=1477
+
+#EXTINF:-1 tvg-id="463" tvg-name="Discovery HD World" group-title="Infotainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_HD_World.png",Discovery HD World
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ce16454b1fc85beab2f807af176046bb:ff67cca83c770daa6dc9c295cc76564f
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=463
+
+#EXTINF:-1 tvg-id="286" tvg-name="Animal Planet HD World" group-title="Infotainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animal_Planet_HD.png",Animal Planet HD World
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2e5b244dece4589e8cb63c3f78599b8b:d0bf0aea980e46b12a38f8004505e2fe
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=286
+
+#EXTINF:-1 tvg-id="566" tvg-name="Animal Planet Hindi" group-title="Infotainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animal_Planet_Hindi.png",Animal Planet Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ead5a173062a584c85fcdfcfdda3ddf5:4c799a57db355c7cdfbdbf2ad39ec7fe
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=566
+
+#EXTINF:-1 tvg-id="575" tvg-name="Discovery Channel Hindi" group-title="Infotainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Channel_Hindi.png",Discovery Channel Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e7de2a4993765d2cb71d07dfcb9c4c55:67a3c25d5e236c1caea9c9b312a40dd3
+https://playflix.icu/mahesh/Jiotv/manifest.php?id=575
 
 #EXTINF:-1 tvg-id="31" tvg-name="Zee Cinema HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png" group-title="Movies" tvg-language="Hindi",Zee Cinema HD
 https://playflix.icu/mahesh/Jiotv/index.php?id=0-9-zeecinemahd
