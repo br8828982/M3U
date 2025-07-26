@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1753482350~exp=1753568750~acl=/*~hmac=c2c66f92a65167bd0f53d0d74125945d64d6c58eff32aadbdbb585406c429e45"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1753482350~exp=1753568750~acl=/*~hmac=c2c66f92a65167bd0f53d0d74125945d64d6c58eff32aadbdbb585406c429e45&xxx=%7Ccookie=__hdnea__=st=1753482350~exp=1753568750~acl=/*~hmac=c2c66f92a65167bd0f53d0d74125945d64d6c58eff32aadbdbb585406c429e45
+#EXTHTTP:{"cookie":"__hdnea__=st=1753528901~exp=1753615301~acl=/*~hmac=4d39c2b26f926afc00642d558728f9ca112c847318404869882b917607a2ee30"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1753528901~exp=1753615301~acl=/*~hmac=4d39c2b26f926afc00642d558728f9ca112c847318404869882b917607a2ee30&xxx=%7Ccookie=__hdnea__=st=1753528901~exp=1753615301~acl=/*~hmac=4d39c2b26f926afc00642d558728f9ca112c847318404869882b917607a2ee30
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
