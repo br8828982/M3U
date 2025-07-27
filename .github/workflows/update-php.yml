@@ -48,28 +48,45 @@ jobs:
         # Remove any old FANCode section if present (between custom markers)
         sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-        # Extract lines and modify #EXTINF lines to add tvg-name with event name only
+        # Parse fancode.m3u and insert tvg-name with event name properly
         awk '
           BEGIN { print "#FANCODE-BEGIN" }
           /^#EXTINF/ {
-            # Find position of last comma to get event name
-            last_comma = 0
-            for (i=length($0); i>0; i--) {
-              if (substr($0, i, 1) == ",") {
-                last_comma = i
-                break
-              }
-            }
-            ev_name = substr($0, last_comma+1)
-            gsub(/^ +| +$/, "", ev_name)   # trim spaces
+            line = $0
 
             # Remove existing tvg-name attribute if any
-            gsub(/tvg-name="[^"]*"/, "", $0)
+            gsub(/tvg-name="[^"]*"/, "", line)
 
-            # Insert tvg-name="event name" right after #EXTINF:-1,
-            sub(/^#EXTINF:-1,/, "#EXTINF:-1, tvg-name=\"" ev_name "\" ")
+            # Look for last occurrence of '",' which typically precedes event name
+            event_pos = match(line, /",[^"]*$/)
 
-            print
+            if (event_pos > 0) {
+              # Extract event name (after '",')
+              ev_name = substr(line, event_pos+2)
+              gsub(/^ +| +$/, "", ev_name)
+
+              # Attributes part (before and including last quote)
+              attrs = substr(line, 1, event_pos+1)
+
+              # Insert tvg-name before the trailing quote
+              sub(/"$/, "\" tvg-name=\"" ev_name "\"", attrs)
+
+              print attrs
+            } else {
+              # Fallback: extract event name after last comma
+              last_comma = 0
+              for (i=length(line); i>0; i--) {
+                if (substr(line,i,1) == ",") {
+                  last_comma = i
+                  break
+                }
+              }
+              ev_name = substr(line, last_comma+1)
+              gsub(/^ +| +$/, "", ev_name)
+              sub(/^#EXTINF:-1,/, "#EXTINF:-1, tvg-name=\"" ev_name "\" ", line)
+              print line
+            }
+
             getline url
             print url
             next
