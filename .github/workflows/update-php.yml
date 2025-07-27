@@ -48,17 +48,19 @@ jobs:
         # Remove old Fancode section
         sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-        echo "#FANCODE-BEGIN" >> fancode_processed.m3u
+        echo "#FANCODE-BEGIN" > fancode_processed.m3u
 
-        awk -v RS='' '
+        awk '
+          BEGIN { RS=""; FS="\n" }
           {
-            n = split($0, lines, "\n");
-            for (i = 1; i < n; i++) {
-              if (lines[i] ~ /^#EXTINF/) {
-                match(lines[i], /,(.*)$/, name)
-                tvgname = "tvg-name=\"" name[1] "\""
-                gsub(/tvg-logo="/, tvgname " tvg-logo=\"", lines[i])
-                print lines[i] "\n" lines[i+1] >> "fancode_processed.m3u"
+            for (i=1; i<=NF; i++) {
+              if ($i ~ /^#EXTINF/) {
+                match($i, /,(.*)$/, arr)
+                name = arr[1]
+                gsub(/tvg-name="[^"]*"/, "", $i)   # Remove if exists
+                gsub(/tvg-logo="/, "tvg-name=\"" name "\" tvg-logo=\"", $i)
+                print $i >> "fancode_processed.m3u"
+                print $(i+1) >> "fancode_processed.m3u"
               }
             }
           }
