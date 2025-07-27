@@ -1,4 +1,4 @@
-name: Fancode Events Auto-Update
+name: Update token (__hdnea__) and Fancode live events
 
 on:
   schedule:
@@ -6,50 +6,73 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-fancode:
+  update-token-and-events:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v2
 
-      - name: Fetch latest fancode.m3u and update php.m3u
-        run: |
-          # Fetch fancode.m3u from GitHub
-          curl -sL -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
+    - name: Fetch remote playlist and extract __hdnea__ token
+      run: |
+        curl -sL -o jio.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/jstar.m3u"
+        jio_cookie_line=$(grep -m1 '#EXTHTTP' jio.m3u)
+        jio_cookie=$(echo "$jio_cookie_line" | grep -o '__hdnea__=[^"]*')
 
-          # Remove old Fancode section
-          sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
+        echo "$jio_cookie_line" > jio_cookie_line.txt
+        echo "$jio_cookie" > jio_cookie.txt
 
-          # Start new block
-          echo "#FANCODE-BEGIN" > fancode_processed.m3u
+    - name: Replace token in php.m3u
+      run: |
+        jio_cookie=$(cat jio_cookie.txt)
+        jio_json=$(cat jio_cookie_line.txt)
 
-          # Convert and append entries with tvg-name
-          awk 'BEGIN { OFS="\n" }
-            /^#EXTINF:-1,/ {
-              title=substr($0, index($0, ",") + 1)
-              print "#EXTINF:-1 tvg-name=\"" title "\", " title
-              next
+        awk -v jio="$jio_cookie" -v jsonline="$jio_json" '
+          {
+            if ($0 ~ /^#EXTHTTP:/) {
+              print jsonline;
+              next;
             }
-            /^[^#]/ {
-              print $0
-            }
-          ' fancode.m3u >> fancode_processed.m3u
 
-          # End block
-          echo "#FANCODE-END" >> fancode_processed.m3u
+            gsub(/__hdnea__=[^&"]+/, jio);
+            gsub(/cookie=__hdnea__%3D[^&"]+/, "cookie=" jio);
 
-          # Append updated block to php.m3u
-          cat fancode_processed.m3u >> php.m3u
+            print;
+          }
+        ' php.m3u > temp.m3u && mv temp.m3u php.m3u
 
-          # Cleanup
-          rm fancode_processed.m3u fancode.m3u
+    - name: Fetch Fancode.m3u and update php.m3u
+      run: |
+        curl -sL -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
 
-      - name: Commit and Push updated M3U
-        run: |
-          git config user.name "Fancode Bot"
-          git config user.email "actions@github.com"
+        # Remove any old FANCode section if present (between custom markers)
+        sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-          git add php.m3u
-          git commit -m "🔁 Auto-update Fancode live events" || echo "No changes to commit"
-          git push
+        # Extract lines and modify #EXTINF lines to add tvg-name with event name
+        awk '
+          BEGIN { print "#FANCODE-BEGIN" }
+          /^#EXTINF/ {
+            # Extract event name after comma
+            split($0,a,",");
+            ev_name=a[2];
+            # Remove any existing tvg-name=
+            sub(/tvg-name="[^"]*"/, "", $0);
+            # Insert tvg-name=""
+            sub(/^#EXTINF:/, "#EXTINF:-1, tvg-name=\"" ev_name "\" ")
+            print;
+            getline url;
+            print url;
+            next;
+          }
+          END { print "#FANCODE-END" }
+        ' fancode.m3u >> php.m3u
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add php.m3u
+        git commit -m "Update __hdnea__ token and Fancode events in php.m3u" || echo "No changes"
+        git push origin HEAD:main
