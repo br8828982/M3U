@@ -48,21 +48,31 @@ jobs:
         # Remove any old FANCode section if present (between custom markers)
         sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-        # Extract lines and modify #EXTINF lines to add tvg-name with event name
+        # Extract lines and modify #EXTINF lines to add tvg-name with event name only
         awk '
           BEGIN { print "#FANCODE-BEGIN" }
           /^#EXTINF/ {
-            # Extract event name after comma
-            split($0,a,",");
-            ev_name=a[2];
-            # Remove any existing tvg-name=
-            sub(/tvg-name="[^"]*"/, "", $0);
-            # Insert tvg-name=""
-            sub(/^#EXTINF:/, "#EXTINF:-1, tvg-name=\"" ev_name "\" ")
-            print;
-            getline url;
-            print url;
-            next;
+            # Find position of last comma to get event name
+            last_comma = 0
+            for (i=length($0); i>0; i--) {
+              if (substr($0, i, 1) == ",") {
+                last_comma = i
+                break
+              }
+            }
+            ev_name = substr($0, last_comma+1)
+            gsub(/^ +| +$/, "", ev_name)   # trim spaces
+
+            # Remove existing tvg-name attribute if any
+            gsub(/tvg-name="[^"]*"/, "", $0)
+
+            # Insert tvg-name="event name" right after #EXTINF:-1,
+            sub(/^#EXTINF:-1,/, "#EXTINF:-1, tvg-name=\"" ev_name "\" ")
+
+            print
+            getline url
+            print url
+            next
           }
           END { print "#FANCODE-END" }
         ' fancode.m3u >> php.m3u
