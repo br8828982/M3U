@@ -33,44 +33,39 @@ jobs:
               print jsonline;
               next;
             }
+
             gsub(/__hdnea__=[^&"]+/, jio);
             gsub(/cookie=__hdnea__%3D[^&"]+/, "cookie=" jio);
+
             print;
           }
         ' php.m3u > temp.m3u && mv temp.m3u php.m3u
 
-    - name: Fetch Fancode.m3u and update php.m3u
+    - name: Fetch Fancode JSON and update php.m3u
       run: |
-        curl -sL -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
+        curl -sL -o fancode.json "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json"
+
+        echo "# Removing old Fancode section from php.m3u"
         sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-        awk '
-          BEGIN { print "#FANCODE-BEGIN" }
-          /^#EXTINF/ {
-            line = $0
-            gsub(/tvg-name="[^"]*"/, "", line)
-            # Find last comma NOT inside quotes
-            n = split(line, a, "")
-            inquote = 0
-            lastcomma = 0
-            for (i = 1; i <= n; i++) {
-              if (a[i] == "\"") inquote = !inquote
-              if (a[i] == "," && !inquote) lastcomma = i
-            }
-            ev_name = substr(line, lastcomma+1)
-            gsub(/^ +| +$/, "", ev_name)
-            # Insert tvg-name="ev_name" after #EXTINF:-1,
-            attr = substr(line, 1, lastcomma-1)
-            rest = substr(line, lastcomma)
-            sub(/^,/, "", rest)
-            printf "#EXTINF:-1, tvg-name=\"%s\"%s\n", ev_name, attr
-            # Print the url line
-            getline url
-            print url
-            next
-          }
-          END { print "#FANCODE-END" }
-        ' fancode.m3u >> php.m3u
+        echo "# Adding new Fancode section"
+        {
+          echo "#FANCODE-BEGIN"
+
+          jq -c '.matches[] | select(.event_category=="Cricket" or .event_category=="Football")' fancode.json | while read -r match; do
+            name=$(echo "$match" | jq -r '.match_name')
+            logo=$(echo "$match" | jq -r '.src')
+            group=$(echo "$match" | jq -r '.event_category')
+            stream=$(echo "$match" | jq -r '.adfree_url // empty')
+
+            if [[ -n "$stream" ]]; then
+              echo "#EXTINF:-1 tvg-name=\"$name\" tvg-logo=\"$logo\" group-title=\"$group\",$name"
+              echo "$stream"
+            fi
+          done
+
+          echo "#FANCODE-END"
+        } >> php.m3u
 
     - name: Commit and push changes
       env:
