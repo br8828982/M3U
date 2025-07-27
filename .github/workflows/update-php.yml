@@ -2,7 +2,7 @@ name: Fancode Events Auto-Update
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # every 12 hours
+    - cron: '0 */12 * * *'  # every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -15,40 +15,35 @@ jobs:
 
       - name: Fetch latest fancode.m3u and update php.m3u
         run: |
-          # Fetch the raw fancode.m3u from GitHub
+          # Fetch fancode.m3u from GitHub
           curl -sL -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
 
-          # Remove previous Fancode section
+          # Remove old Fancode section
           sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-          # Start new Fancode block
+          # Start new block
           echo "#FANCODE-BEGIN" > fancode_processed.m3u
-          echo "#EXTM3U" >> fancode_processed.m3u
 
-          # Format each EXTINF block with proper tvg-name
-          awk '
-            BEGIN { RS=""; FS="\n" }
-            {
-              for (i = 1; i <= NF; i++) {
-                if ($i ~ /^#EXTINF:-1,/) {
-                  line = $i
-                  event = substr(line, index(line, ",") + 1)
-                  gsub(/^#EXTINF:-1,/, "#EXTINF:-1 tvg-name=\"" event "\"", line)
-                  print line >> "fancode_processed.m3u"
-                  print $(i+1) >> "fancode_processed.m3u"
-                }
-              }
+          # Convert and append entries with tvg-name
+          awk 'BEGIN { OFS="\n" }
+            /^#EXTINF:-1,/ {
+              title=substr($0, index($0, ",") + 1)
+              print "#EXTINF:-1 tvg-name=\"" title "\", " title
+              next
             }
-          ' fancode.m3u
+            /^[^#]/ {
+              print $0
+            }
+          ' fancode.m3u >> fancode_processed.m3u
 
-          # End block marker
+          # End block
           echo "#FANCODE-END" >> fancode_processed.m3u
 
-          # Append to main M3U
+          # Append updated block to php.m3u
           cat fancode_processed.m3u >> php.m3u
 
           # Cleanup
-          rm fancode_processed.m3u
+          rm fancode_processed.m3u fancode.m3u
 
       - name: Commit and Push updated M3U
         run: |
@@ -56,5 +51,5 @@ jobs:
           git config user.email "actions@github.com"
 
           git add php.m3u
-          git commit -m "🔁 Auto-update Fancode live events"
+          git commit -m "🔁 Auto-update Fancode live events" || echo "No changes to commit"
           git push
