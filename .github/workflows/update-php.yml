@@ -43,17 +43,31 @@ jobs:
 
     - name: Fetch Fancode.m3u and update php.m3u
       run: |
-        curl -sL -o fancode.m3u "https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.m3u"
+        curl -sL -o fancode.m3u "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"
 
-        # Remove any old FANCode section if present (between custom markers)
+        # Remove old Fancode section
         sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' php.m3u
 
-        # Add new updated FANCode section
-        {
-          echo "#FANCODE-BEGIN"
-          grep -A1 '^#EXTINF' fancode.m3u
-          echo "#FANCODE-END"
-        } >> php.m3u
+        echo "#FANCODE-BEGIN" >> fancode_processed.m3u
+
+        awk -v RS='' '
+          {
+            n = split($0, lines, "\n");
+            for (i = 1; i < n; i++) {
+              if (lines[i] ~ /^#EXTINF/) {
+                match(lines[i], /,(.*)$/, name)
+                tvgname = "tvg-name=\"" name[1] "\""
+                gsub(/tvg-logo="/, tvgname " tvg-logo=\"", lines[i])
+                print lines[i] "\n" lines[i+1] >> "fancode_processed.m3u"
+              }
+            }
+          }
+        ' fancode.m3u
+
+        echo "#FANCODE-END" >> fancode_processed.m3u
+
+        cat fancode_processed.m3u >> php.m3u
+        rm fancode_processed.m3u
 
     - name: Commit and push changes
       env:
