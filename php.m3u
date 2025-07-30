@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1753788214~exp=1753874614~acl=/*~hmac=0efc9a43bb71507d0035e206651b087fec996161ba614f205ff19446894041b3"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1753788214~exp=1753874614~acl=/*~hmac=0efc9a43bb71507d0035e206651b087fec996161ba614f205ff19446894041b3&xxx=%7Ccookie=__hdnea__=st=1753788214~exp=1753874614~acl=/*~hmac=0efc9a43bb71507d0035e206651b087fec996161ba614f205ff19446894041b3
+#EXTHTTP:{"cookie":"__hdnea__=st=1753828013~exp=1753914413~acl=/*~hmac=69c9fab1439ac3a792d07718b8f808c77c65f88b0b9ff04ac089536c005d38f9"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1753828013~exp=1753914413~acl=/*~hmac=69c9fab1439ac3a792d07718b8f808c77c65f88b0b9ff04ac089536c005d38f9&xxx=%7Ccookie=__hdnea__=st=1753828013~exp=1753914413~acl=/*~hmac=69c9fab1439ac3a792d07718b8f808c77c65f88b0b9ff04ac089536c005d38f9
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,8 +290,4 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
-#EXTINF:-1 tvg-name="Australia Champions vs Pakistan Champions" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/129731_5370_AAC_PNC_fc-Web.jpg" group-title="Cricket",Australia Champions vs Pakistan Champions
-https://in-mc-fdlive.fancode.com/mumbai/129731_english_hls_98010ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="Mis-e-Ainak Knights vs Band-e-Amir Dragons" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/130806_5425_BD_MAK_fc-Web.jpg" group-title="Cricket",Mis-e-Ainak Knights vs Band-e-Amir Dragons
-https://in-mc-fdlive.fancode.com/mumbai/130806_english_hls_67606ta-di_h264/index.m3u8
 #FANCODE-END
