@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1753914378~exp=1754000778~acl=/*~hmac=33a685608e89bd51bfd59c6de9e108f6e35461e3d94340176be2502db7b6d69d"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1753914378~exp=1754000778~acl=/*~hmac=33a685608e89bd51bfd59c6de9e108f6e35461e3d94340176be2502db7b6d69d&xxx=%7Ccookie=__hdnea__=st=1753914378~exp=1754000778~acl=/*~hmac=33a685608e89bd51bfd59c6de9e108f6e35461e3d94340176be2502db7b6d69d
+#EXTHTTP:{"cookie":"__hdnea__=st=1753961050~exp=1754047450~acl=/*~hmac=e113851a03d8baee4b47f56561c39ef5ac0a403ba6c4506cab0173f98364076e"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1753961050~exp=1754047450~acl=/*~hmac=e113851a03d8baee4b47f56561c39ef5ac0a403ba6c4506cab0173f98364076e&xxx=%7Ccookie=__hdnea__=st=1753961050~exp=1754047450~acl=/*~hmac=e113851a03d8baee4b47f56561c39ef5ac0a403ba6c4506cab0173f98364076e
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,4 +290,10 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
+#EXTINF:-1 tvg-name="Zimbabwe vs New Zealand" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/New-Zealand-Tour-of-Zimbabwe-(Tests)old-match-card-.jpg" group-title="Cricket",Zimbabwe vs New Zealand
+https://in-mc-fdlive.fancode.com/mumbai/128760_english_hls_67492ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Seoul vs Barcelona" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Seoul-vs-Barcelona_old.jpg" group-title="Football",Seoul vs Barcelona
+https://in-mc-fdlive.fancode.com/mumbai/129908_english_hls_63370ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Arsenal vs Tottenham Hotspur" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Arsenal-vs-Tottenham-Hotspur_old-(1).jpg" group-title="Football",Arsenal vs Tottenham Hotspur
+https://in-mc-fdlive.fancode.com/mumbai/129903_english_hls_12581ta-di_h264/index.m3u8
 #FANCODE-END
