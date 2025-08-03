@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Disney Channel",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",
+    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=1373",
+    "license_url": "https://clkey.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c"
+  },
+	{
+    "id": "2",
+    "title": "Star Jalsha HD",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
+    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=708",
+    "license_url": "https://clkey.vercel.app/api/results.php?keyid=7810c0264da15a62b200a3254d041aed&key=cb1e3bcfcdb1281b85625b12dae6de43"
+  },
+	{
+    "id": "3",
+    "title": "Sony Max HD",
+    "logo_url": "https://i.postimg.cc/XYF71G8F/SONY-MAX-HD.png",
+    "stream_url": "https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8",
+    "license_url": ""
+  },
+	{
+	"id": "4",
+	"title": "Zee Cinema HD",
+	"logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",
+	"stream_url": "https://playflix.icu/mahesh/Jiotv/index.php?id=0-9-zeecinemahd",
+	"license_url": ""
+	},
+	{
+	"id": "5",
+	"title": "Sangeet Bangla",
+	"logo_url": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700018T7_20240710T022250SQUARE.png",
+	"stream_url": "https://jmp2.uk/sam-INBD4700018T7.m3u8",
+	"license_url": ""
+	}
+]
