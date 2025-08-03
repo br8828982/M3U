@@ -46,5 +46,13 @@
     "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=457",
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=336cae9ff0c957cfabc598f4faf7e701&key=24b00e0fec8785b474f544560dfec897",
     "drm_scheme": "clearkey"
+  },
+  {
+    "id": "7",
+    "title": "Star Gold HD",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
+    "stream_url": "http://192.168.29.242:8000/tata/manifest.php?id=245",
+    "license_url": "http://192.168.29.242:8000/tata/widevine.php?id=245",
+    "drm_scheme": "widevine"
   }
 ]
