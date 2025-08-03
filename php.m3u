@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1754133707~exp=1754220107~acl=/*~hmac=6e7ee1153d65cd89eb362231512ff92f51035f3ca0264ad709275073ede913db"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754133707~exp=1754220107~acl=/*~hmac=6e7ee1153d65cd89eb362231512ff92f51035f3ca0264ad709275073ede913db&xxx=%7Ccookie=__hdnea__=st=1754133707~exp=1754220107~acl=/*~hmac=6e7ee1153d65cd89eb362231512ff92f51035f3ca0264ad709275073ede913db
+#EXTHTTP:{"cookie":"__hdnea__=st=1754173529~exp=1754259929~acl=/*~hmac=e5af72c17055250dee391e17f330d3a8f1836024bebebcf2eb3435641ff36524"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754173529~exp=1754259929~acl=/*~hmac=e5af72c17055250dee391e17f330d3a8f1836024bebebcf2eb3435641ff36524&xxx=%7Ccookie=__hdnea__=st=1754173529~exp=1754259929~acl=/*~hmac=e5af72c17055250dee391e17f330d3a8f1836024bebebcf2eb3435641ff36524
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,6 +290,10 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
-#EXTINF:-1 tvg-name="Paratus Jets vs Eavion Eagles" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Namibia-Domestic-T20_match-card.jpg" group-title="Cricket",Paratus Jets vs Eavion Eagles
-https://in-mc-fdlive.fancode.com/mumbai/132436_english_hls_14666ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Rockets vs Marlins" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132516_5522_MAR_RCS_fc-web.jpg" group-title="Cricket",Rockets vs Marlins
+https://in-mc-fdlive.fancode.com/mumbai/132516_english_hls_32608ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Melaka vs Pahang" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132614_5524_MEL_PHG_fc-web.jpg" group-title="Cricket",Melaka vs Pahang
+https://in-mc-fdlive.fancode.com/mumbai/132614_english_hls_18497ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Pakistan vs West Indies" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg" group-title="Cricket",Pakistan vs West Indies
+https://in-mc-fdlive.fancode.com/mumbai/131403_english_hls_5829ta-di_h264/index.m3u8
 #FANCODE-END
