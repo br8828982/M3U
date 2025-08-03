@@ -317,7 +317,7 @@
   {
     "id": "",
     "title": "9X Jhakaas",
-    "logo_url": "https://static.wikia.nocookie.net/logopedia/images/4/49/9xjhakaas_purple.svg",
+    "logo_url": "https://raw.githubusercontent.com/br8828982/M3U/refs/heads/main/9xjhakaas_purple.png",
     "stream_url": "https://jmp2.uk/sam-INBC28000144H.m3u8",
     "license_url": ""
   },
@@ -373,14 +373,14 @@
   {
     "id": "sony-max-2",
     "title": "Sony MAX 2",
-    "logo_url": "https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png",
+    "logo_url": "https://raw.githubusercontent.com/br8828982/M3U/refs/heads/main/Sony_MAX2.png",
     "stream_url": "https://tataplay.slivcdn.com/hls/live/2011908/MAX2/master.m3u8",
     "license_url": ""
   },
   {
     "id": "sony-wah",
     "title": "Sony WAH",
-    "logo_url": "https://sonypicturesnetworks.com/images/logos/Sony_WAH.png",
+    "logo_url": "https://raw.githubusercontent.com/br8828982/M3U/refs/heads/main/Sony_WAH.png",
     "stream_url": "https://tataplay.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8",
     "license_url": ""
   },
