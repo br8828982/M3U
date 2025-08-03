@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1754173529~exp=1754259929~acl=/*~hmac=e5af72c17055250dee391e17f330d3a8f1836024bebebcf2eb3435641ff36524"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754173529~exp=1754259929~acl=/*~hmac=e5af72c17055250dee391e17f330d3a8f1836024bebebcf2eb3435641ff36524&xxx=%7Ccookie=__hdnea__=st=1754173529~exp=1754259929~acl=/*~hmac=e5af72c17055250dee391e17f330d3a8f1836024bebebcf2eb3435641ff36524
+#EXTHTTP:{"cookie":"__hdnea__=st=1754220189~exp=1754306589~acl=/*~hmac=f3e29fdc30440a7e21aa03dc109ce1f21dc9db309099ba86702fcf6b2809ff3f"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754220189~exp=1754306589~acl=/*~hmac=f3e29fdc30440a7e21aa03dc109ce1f21dc9db309099ba86702fcf6b2809ff3f&xxx=%7Ccookie=__hdnea__=st=1754220189~exp=1754306589~acl=/*~hmac=f3e29fdc30440a7e21aa03dc109ce1f21dc9db309099ba86702fcf6b2809ff3f
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,10 +290,14 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
-#EXTINF:-1 tvg-name="Rockets vs Marlins" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132516_5522_MAR_RCS_fc-web.jpg" group-title="Cricket",Rockets vs Marlins
-https://in-mc-fdlive.fancode.com/mumbai/132516_english_hls_32608ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="Melaka vs Pahang" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132614_5524_MEL_PHG_fc-web.jpg" group-title="Cricket",Melaka vs Pahang
-https://in-mc-fdlive.fancode.com/mumbai/132614_english_hls_18497ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="Pakistan vs West Indies" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg" group-title="Cricket",Pakistan vs West Indies
-https://in-mc-fdlive.fancode.com/mumbai/131403_english_hls_5829ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Tottenham Hotspur vs Newcastle United" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Tottenham-Hotspur-VS-Newcastle-United_old.jpg" group-title="Football",Tottenham Hotspur vs Newcastle United
+https://in-mc-fdlive.fancode.com/mumbai/131252_english_hls_72588ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Ajax vs Monaco" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Ajax-VS-Monaco_old.jpg" group-title="Football",Ajax vs Monaco
+https://in-mc-fdlive.fancode.com/mumbai/131251_english_hls_25313ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Eavion Eagles vs NPL Bears" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Namibia-Domestic-T20_match-card.jpg" group-title="Cricket",Eavion Eagles vs NPL Bears
+https://in-mc-fdlive.fancode.com/mumbai/132438_english_hls_27435ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Stockport County vs Bolton Wanderers" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132020_5490_STC_BOL_fc-Web.jpg" group-title="Football",Stockport County vs Bolton Wanderers
+https://in-mc-fdlive.fancode.com/mumbai/132020_english_hls_7099ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="North Delhi Strikers vs Central Delhi Kings" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132465_5521_NDS_CDK_fc-Web.jpg" group-title="Cricket",North Delhi Strikers vs Central Delhi Kings
+https://in-mc-fdlive.fancode.com/mumbai/132465_english_hls_3087ta-di_h264/index.m3u8
 #FANCODE-END
