@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1754274598~exp=1754360998~acl=/*~hmac=d175a9b893a3fa57727e396a9898dd7b1d525c29ee0b6eb52beab00843d304e8"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754274598~exp=1754360998~acl=/*~hmac=d175a9b893a3fa57727e396a9898dd7b1d525c29ee0b6eb52beab00843d304e8&xxx=%7Ccookie=__hdnea__=st=1754274598~exp=1754360998~acl=/*~hmac=d175a9b893a3fa57727e396a9898dd7b1d525c29ee0b6eb52beab00843d304e8
+#EXTHTTP:{"cookie":"__hdnea__=st=1754346441~exp=1754432841~acl=/*~hmac=64b274e70511e494130fb8c8383ab2b6a99bc57315d82184988e800bc8473c23"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754346441~exp=1754432841~acl=/*~hmac=64b274e70511e494130fb8c8383ab2b6a99bc57315d82184988e800bc8473c23&xxx=%7Ccookie=__hdnea__=st=1754346441~exp=1754432841~acl=/*~hmac=64b274e70511e494130fb8c8383ab2b6a99bc57315d82184988e800bc8473c23
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,8 +290,4 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
-#EXTINF:-1 tvg-name="Daegu vs Barcelona" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Daegu-VS-Barcelona_old.jpg" group-title="Football",Daegu vs Barcelona
-https://in-mc-fdlive.fancode.com/mumbai/129909_english_hls_71610ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="East Delhi Riders vs West Delhi Lions" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132467_5521_EDR_WDL_fc-Web.jpg" group-title="Cricket",East Delhi Riders vs West Delhi Lions
-https://in-mc-fdlive.fancode.com/mumbai/132467_english_hls_78715ta-di_h264/index.m3u8
 #FANCODE-END
