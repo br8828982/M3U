@@ -12,5 +12,40 @@
     "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",
     "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=1391",
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=454f8353caac500d95d641e0c7cfe048&key=0aaca46ea0f5096335598781fbe590e4"
-  }
+  },
+  {
+    "id": "1391",
+    "title": "Abp Ananda",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Ananda.png",
+    "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
+    "license_url": ""
+  },
+  {
+    "id": "0-9-24ghantatv",
+    "title": "Zee 24 Ghanta",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",
+    "stream_url": "https://playflix.icu/mahesh/Jiotv/index.php?id=0-9-24ghantatv",
+    "license_url": ""
+  },
+  {
+    "id": "sam-INBD25000081V",
+    "title": "News18 Bangla",
+    "logo_url": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000081V_20240131T032503SQUARE.png_20240131032505.png",
+    "stream_url": "https://jmp2.uk/sam-INBD25000081V.m3u8",
+    "license_url": ""
+  },
+  {
+    "id": "1264",
+    "title": "Kolkata TV",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Kolkata_TV.png",
+    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=1264",
+    "license_url": "https://clkey.vercel.app/api/results.php?keyid=6276561f80055244831684aa6279843b&key=174bbda82670eca1b8702488f77a181a"
+  },
+  {
+    "id": "r-bangla",
+    "title": "Republic Bangla",
+    "logo_url": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/R-Bangla-red.png",
+    "stream_url": "https://live.drmlive-02.workers.dev/yupptv/fta/republic-bangla.m3u8",
+    "license_url": ""
+  },
 ]
