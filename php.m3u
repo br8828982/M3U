@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1754479472~exp=1754565872~acl=/*~hmac=2c743b1408cd4f260b9b54b2a2d1f362004a7bc811c484383bbe7c25c6a399a8"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754479472~exp=1754565872~acl=/*~hmac=2c743b1408cd4f260b9b54b2a2d1f362004a7bc811c484383bbe7c25c6a399a8&xxx=%7Ccookie=__hdnea__=st=1754479472~exp=1754565872~acl=/*~hmac=2c743b1408cd4f260b9b54b2a2d1f362004a7bc811c484383bbe7c25c6a399a8
+#EXTHTTP:{"cookie":"__hdnea__=st=1754519246~exp=1754605646~acl=/*~hmac=c56f02379ae4cd76098b006888ada1c881a6ea581b9737e7a09cf0ba510d5519"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754519246~exp=1754605646~acl=/*~hmac=c56f02379ae4cd76098b006888ada1c881a6ea581b9737e7a09cf0ba510d5519&xxx=%7Ccookie=__hdnea__=st=1754519246~exp=1754605646~acl=/*~hmac=c56f02379ae4cd76098b006888ada1c881a6ea581b9737e7a09cf0ba510d5519
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,8 +290,4 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
-#EXTINF:-1 tvg-name="London County Cricket vs Kreative Sports XI" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ECS-England,-Wimbledon,-2025-old-match-card_1753431539335.jpg" group-title="Cricket",London County Cricket vs Kreative Sports XI
-https://in-mc-fdlive.fancode.com/mumbai/132063_english_hls_15369ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="New Delhi Tigers vs East Delhi Riders" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132471_5521_NDT_EDR_fc-Web.jpg" group-title="Cricket",New Delhi Tigers vs East Delhi Riders
-https://in-mc-fdlive.fancode.com/mumbai/132471_english_hls_85005ta-di_h264/index.m3u8
 #FANCODE-END
