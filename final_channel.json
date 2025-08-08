@@ -12,9 +12,9 @@
     "id": "0-9-aajtak",
     "title": "Aaj tak",
     "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",
-    "stream_url": "https://z5ak-cmaflive.zee5.com/cmaf/live/2105503/AAJTAKHDNEWSELE/index-connected.m3u8?hdntl=exp=1754706413~acl=%2f*~data=hdntl~hmac=b2d39219a5ff0b905b76b8194717b82ab0fbaf4795c4e9c2b79703f839dda483",
+    "stream_url": "https://z5ak-cmaflive.zee5.com/cmaf/live/2105503/AAJTAKHDNEWSELE/index-connected.m3u8?hdntl=exp=...",
     "license_url": "",
-    "user_agent": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36",
     "cookie": ""
   }
 ]
