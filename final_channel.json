@@ -7,5 +7,14 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1754652250~exp=1754738650~acl=/*~hmac=4d05e48f8a56896ecc77f8811b90323fe2d0b19b4c78807f5d794bdff3c36ef4"
+  },
+  {
+    "id": "0-9-aajtak",
+    "title": "Aaj tak",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",
+    "stream_url": "https://z5ak-cmaflive.zee5.com/cmaf/live/2105503/AAJTAKHDNEWSELE/index-connected.m3u8?hdntl=exp=1754706413~acl=%2f*~data=hdntl~hmac=b2d39219a5ff0b905b76b8194717b82ab0fbaf4795c4e9c2b79703f839dda483",
+    "license_url": "",
+    "user_agent": "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36",
+    "cookie": ""
   }
 ]
