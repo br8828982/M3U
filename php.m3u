@@ -89,8 +89,8 @@ https://playflix.icu/mahesh/Jiotv/manifest.php?id=1120
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=336cae9ff0c957cfabc598f4faf7e701:24b00e0fec8785b474f544560dfec897
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1754997736~exp=1755084136~acl=/*~hmac=349e73aa2fd07952d150ba1b5a5c591bb3eada150627756b1f71e19743b912ef"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1754997736~exp=1755084136~acl=/*~hmac=349e73aa2fd07952d150ba1b5a5c591bb3eada150627756b1f71e19743b912ef&xxx=%7Ccookie=__hdnea__=st=1754997736~exp=1755084136~acl=/*~hmac=349e73aa2fd07952d150ba1b5a5c591bb3eada150627756b1f71e19743b912ef
+#EXTHTTP:{"cookie":"__hdnea__=st=1755037456~exp=1755123856~acl=/*~hmac=0dcafdedb178ef87f6930f5e00c5f1325335aeb3deb9fc5abdfee6b1e78e1681"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_BTS/output/index.mpd?__hdnea__=st=1755037456~exp=1755123856~acl=/*~hmac=0dcafdedb178ef87f6930f5e00c5f1325335aeb3deb9fc5abdfee6b1e78e1681&xxx=%7Ccookie=__hdnea__=st=1755037456~exp=1755123856~acl=/*~hmac=0dcafdedb178ef87f6930f5e00c5f1325335aeb3deb9fc5abdfee6b1e78e1681
 
 #EXTINF:-1 tvg-id="708" tvg-name="Star Jalsha HD" group-title="Entertainment" tvg-logo="https://img.media.jio.com/tvpimages/13/28/301972_1749651663207_l_medium.jpg",Star Jalsha HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -290,12 +290,6 @@ https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bengali Beats" tvg-logo="https://github.com/tplaylive/stream/blob/main/tplay/playout/209587/Bengali-Beats.png?raw=true" group-title="Tplay",Bengali Beats
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #FANCODE-BEGIN
-#EXTINF:-1 tvg-name="Central Delhi Kings vs Outer Delhi Warriors" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132483_5521_ODW_CDK_fc-Web.jpg" group-title="Cricket",Central Delhi Kings vs Outer Delhi Warriors
-https://in-mc-fdlive.fancode.com/mumbai/132483_english_hls_86094ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="Hubli Tigers vs Shivamogga Lions" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/132787_5530_HT_SS_fc-Web.jpg" group-title="Cricket",Hubli Tigers vs Shivamogga Lions
-https://in-mc-fdlive.fancode.com/mumbai/132787_english_hls_93984ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="Zagreb Warriors vs Rijeka Markhors" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ECS-Croatia_old.jpg" group-title="Cricket",Zagreb Warriors vs Rijeka Markhors
-https://in-mc-fdlive.fancode.com/mumbai/133407_english_hls_20333ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-name="Royal Challenger Delhi vs Southern United" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/133366_5560_RCD_SU_fc-Web.jpg" group-title="Cricket",Royal Challenger Delhi vs Southern United
-https://in-mc-fdlive.fancode.com/mumbai/133543_english_hls_60720adfreeta-di_h264/index.m3u8
+#EXTINF:-1 tvg-name="Australia A Women vs India A Women" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/IND_A_vs_AUS_Womens_Old_match-card-(1).jpg" group-title="Cricket",Australia A Women vs India A Women
+https://in-mc-fdlive.fancode.com/mumbai/133232_english_hls_39111ta-di_h264/index.m3u8
 #FANCODE-END
