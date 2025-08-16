@@ -290,7 +290,7 @@
     "id": "sony-hd",
     "title": "SET HD",
     "logo_url": "https://i.postimg.cc/xCV0N1yy/SONY-SET-HD.png",
-    "stream_url": "https://www.googleapis.com/drive/v3/files/1gmfXDWRUAU0xttllQKT1CrCRNtHDIwYR?alt=media&key=AIzaSyDJGujYqxBtgIoxzyHf3Noe-fluBcKemeM",
+    "stream_url": "https://tataplay.slivcdn.com/hls/live/2011671/SETHD/master.m3u8",
     "drm": null
   },
   {
@@ -324,7 +324,7 @@
   {
     "id": "sony-wah",
     "title": "Sony WAH",
-    "logo_url": "https://sonypicturesnetworks.com/images/logos/Sony_WAH.png",
+    "logo_url": "https://raw.githubusercontent.com/br8828982/M3U/refs/heads/main/Sony_WAH.png",
     "stream_url": "https://tataplay.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8",
     "drm": null
   },
