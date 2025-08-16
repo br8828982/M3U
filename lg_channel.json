@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1373",
+    "title": "Disney Channel",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",
+    "stream_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1755309653~exp=1755396053~acl=/*~hmac=42a98f0462bbef09cf69ec4c35a0cce409b84656c5598f6faa5f08867d9b579c&xxx=%7Ccookie=__hdnea__=st=1755309653~exp=1755396053~acl=/*~hmac=42a98f0462bbef09cf69ec4c35a0cce409b84656c5598f6faa5f08867d9b579c",
+    "drm": {
+      "kid": "5181d3e6698055578cedc5bfc86b3e56",
+      "key": "3dca7917d8cf9bb7095dc72b48bdcd3c"
+    }
+  },
+  {
+    "id": "hum-tv",
+    "title": "Hum TV",
+    "logo_url": "https://ev-img-cdn-lb.shoq.com.pk/prd-peg-data/default/images/logos/live/Hum.png",
+    "stream_url": "https://live2.shoq.com.pk/live/eds/HUM_TV/DASH/HUM_TV.mpd",
+    "drm": {
+      "kid": "83404dd4292fec9e27173696f6e42dee",
+      "key": "a9dd477034d4fb2e7e5dc7c21ce73fed"
+    }
+  },
+  {
+    "id": "sony-max-hd",
+    "title": "Sony MAX HD",
+    "logo_url": "https://i.postimg.cc/XYF71G8F/SONY-MAX-HD.png",
+    "stream_url": "https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8",
+    "drm": null
+  }
+]
+  
