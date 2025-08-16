@@ -25,6 +25,35 @@
     "logo_url": "https://i.postimg.cc/XYF71G8F/SONY-MAX-HD.png",
     "stream_url": "https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8",
     "drm": null
+  },
+  {
+    "id": "0-9-tvhd_0",
+    "title": "&TV HD",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/And_TV_HD.png",
+    "stream_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/index.mpd",
+    "drm": {
+      "kid": "67d18634ccb04875875c60fb8d9caaba",
+      "key": "99a66471c09e4b8a8dc39a0de6803f75"
+    }
+  },
+  {
+    "id": "0-9-tvpictureshd",
+    "title": "&Pictures HD",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures_HD.png",
+    "stream_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd",
+    "drm": {
+      "kid": "de8045e9f0fb4d03845dcc4a8bd7712a",
+      "key": "6807bd09bda34ada83152908192af6d6"
+    }
+  },
+  {
+    "id": "0-9-zeecinemahd",
+    "title": "Zee Cinema HD",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",
+    "stream_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd",
+    "drm": {
+      "kid": "f56beaac9f124616872c741c9ce4fa4e",
+      "key": "5d40a903238f4ad98abbed1877d4e3d1"
+    }
   }
 ]
-  
