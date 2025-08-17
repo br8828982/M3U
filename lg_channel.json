@@ -57,6 +57,16 @@
     }
   },
   {
+    "id": "0-9-zeebanglacinema",
+    "title": "Zee Bangla Cinema",
+    "logo_url": "https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/gLSSl4nG.png",
+    "stream_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/index.mpd",
+    "drm": {
+      "kid": "fbbfd9ce4bbe4d818b16df7dfe89f05b",
+      "key": "1e96d0f88ef740e982d6f6105721c8bc"
+    }
+  },
+  {
     "id": "1391",
     "title": "Hungama",
     "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",
