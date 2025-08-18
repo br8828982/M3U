@@ -67,6 +67,13 @@
     }
   },
   {
+    "id": "0-9-zeecinemahd",
+    "title": "Zee Cinema HD",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",
+    "stream_url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd",
+    "drm": null
+  },
+  {
     "id": "1391",
     "title": "Hungama",
     "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png",
