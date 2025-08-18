@@ -67,11 +67,14 @@
     }
   },
   {
-    "id": "0-9-zeecinemahd",
-    "title": "Zee Cinema HD",
-    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",
-    "stream_url": "https://z5ak-cmaflive.zee5.com/cmaf/live/2105554/ZeeBanglaHDELE/index-connected.m3u8?hdntl=exp=1755600038~acl=%2f*~data=hdntl~hmac=efc699e5a727dff3dbf3da8f00c1522fd08862d2b0b91d134d57158c97898aa3",
-    "drm": null
+    "id": "1657",
+    "title": "Colors Bangla Cinema",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png",
+    "stream_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Colors_Bangla_Cinema_BTS/output/index.mpd?__hdnea__=st=1755483541~exp=1755569941~acl=/*~hmac=f3e6e79945dac6d48f71f099dc9e3bda9b93e6fb077b7cce0cc86ba08dbbd06c",
+    "drm": {
+      "kid": "6f7b7241b2935a909d389fe318e5baaa",
+      "key": "65783311644973348f359dc154bb41db"
+    }
   },
   {
     "id": "1391",
