@@ -7,8 +7,8 @@
     "license_url": "",
     "user_agent": "",
     "cookie": ""
-  },
-  {
+ },
+ {
     "id": "0-9-24ghantatv",
     "title": "Zee 24 Ghanta",
     "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",
@@ -25,8 +25,8 @@
     "license_url": "",
     "user_agent": "",
     "cookie": ""
-  },
-  {
+ },
+ {
     "id": "1264",
     "title": "Kolkata TV",
     "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Kolkata_TV.png",
@@ -34,8 +34,8 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=6276561f80055244831684aa6279843b&key=174bbda82670eca1b8702488f77a181a",
     "user_agent": "",
     "cookie": ""
-  },
-  {
+ },
+ {
     "id": "r-bangla",
     "title": "Republic Bangla",
     "logo_url": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/R-Bangla-red.png",
@@ -52,7 +52,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=7048262f11e55561a9a81d29f06663ba&key=b8c5cacc292a0c04fb5850f8482c672d",
     "user_agent": "",
     "cookie": ""
-  },
+   },
    {
     "id": "sony-ten-1-hd",
     "title": "Sony Sports Ten 1 HD",
@@ -61,7 +61,7 @@
     "license_url": "",
     "user_agent": "",
     "cookie": ""
-  },
+   },
    {
     "id": "sony-ten-1-hd",
     "title": "Sony Sports Ten 1 HD",
@@ -70,8 +70,8 @@
     "license_url": "",
     "user_agent": "",
     "cookie": ""
-  },
-  {
+ },
+ {
   "id": "sony-ten-2-hd",
   "title": "Sony Sports Ten 2 HD",
   "logo_url": "https://i.postimg.cc/wvfsmLrC/SONY-SPORTS-TEN-2-HD.png",
@@ -79,8 +79,8 @@
   "license_url": "",
   "user_agent": "",
   "cookie": ""
-},
-{
+  },
+  {
   "id": "sony-ten-3-hd",
   "title": "Sony Sports Ten 3 HD",
   "logo_url": "https://i.postimg.cc/2SGvDswj/SONY-SPORTS-TEN-3-HD.png",
@@ -88,8 +88,8 @@
   "license_url": "",
   "user_agent": "",
   "cookie": ""
-},
-{
+ },
+ {
   "id": "sony-ten-4-hd",
   "title": "Sony Sports Ten 4 HD",
   "logo_url": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",
@@ -124,7 +124,7 @@
   "license_url": "df20894ec30954d3b28097c138f4cfda:ff9b6292b1cddbd11a046029cb314634",
   "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
   "cookie": "__hdnea__=st=1755688833~exp=1755775233~acl=/*~hmac=8be47f8dea400788ae5b272b564b50ed2d6b9ba3a0ed0a45f5e9da24b11afe95"
-},
+  },
   {
     "id": "1142",
     "title": "Star Sports 1",
@@ -187,7 +187,7 @@
     "license_url": "6017d0514d425fa38f6e80ba6dcc852f:0018944b00adf2078f62386f30c68b74",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755688833~exp=1755775233~acl=/*~hmac=8be47f8dea400788ae5b272b564b50ed2d6b9ba3a0ed0a45f5e9da24b11afe95"
-  },
+   },
    {
     "id": "sony-ten-1-hd",
     "title": "Sony Sports Ten 1 HD",
@@ -223,7 +223,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=454f8353caac500d95d641e0c7cfe048&key=0aaca46ea0f5096335598781fbe590e4",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  },
+   },
    {
     "id": "559",
     "title": "Pogo Hindi",
@@ -250,7 +250,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=2fc128a8dcc751829ec7ed9c678ecb6f&key=95f49d83ad11868e15e64baf5dec62ac",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  },
+   },
    {
     "id": "156",
     "title": "Star Gold HD",
@@ -286,7 +286,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=e6afa4754bc15dd28ab6806f417d319d&key=6a74ef2884813547109ee96098610387",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  },
+   },
    {
     "id": "1113",
     "title": "Star Gold Select HD",
@@ -295,7 +295,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=2cb38dd5e6235bd9936ad7a29bc7ffd8&key=281d7b329be4e22d4e0e3e1d508ba2a4",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  },
+   },
    {
     "id": "1120",
     "title": "Jalsha Movies",
@@ -304,7 +304,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=940a0a4080f553cab03ec23a2e80cf7c&key=b162354170b54cb588182eb75681cac0",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  },
+   },
    {
     "id": "1369",
     "title": "Colors Bangla SD",
@@ -313,7 +313,7 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=4b4ea22699965dcfa9883cb7994d7202&key=9107a849f44403873bffedac6a6cabdc",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  },
+   },
    {
     "id": "1657",
     "title": "Colors Bangla Cinema",
@@ -448,7 +448,7 @@
     "license_url": "",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36",
     "cookie": "hdntl=exp=1755741733~acl=%2f*~data=hdntl~hmac=54454e987bb1d69a705aa73231fb6f95abc67d0bff80318d1d3d368b5dd9a255"
-  },
+   },
    {
     "id": "0-9-zeebanglacinema",
     "title": "Zee Bangla Cinema",
@@ -475,7 +475,7 @@
     "license_url": "",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36",
     "cookie": "hdntl=exp=1755741733~acl=%2f*~data=hdntl~hmac=54454e987bb1d69a705aa73231fb6f95abc67d0bff80318d1d3d368b5dd9a255"
-  },
+   },
    {
     "id": "moviesnow-hd",
     "title": "Movies Now HD",
@@ -493,5 +493,5 @@
     "license_url": "https://clkey.vercel.app/api/results.php?keyid=a8e11fcb823e5568a54beb47e1a2987b&key=074aa39817dd2b8719fb94b063b1560b",
     "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
     "cookie": "__hdnea__=st=1755655064~exp=1755741464~acl=/*~hmac=a4484a31c985eccf71ddb6a35a8920fdf54883280d8b3cbeb8c05309d9098be8"
-  }  
+  }
 ]
