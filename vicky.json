@@ -9,32 +9,41 @@
     "cookie": ""
  },
  {
-    "id": "0-9-24ghantatv",
-    "title": "Zee 24 Ghanta",
-    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",
-    "stream_url": "https://playflix.icu/mahesh/Jiotv/index.php?id=0-9-24ghantatv",
-    "license_url": "",
+  "id": "0-9-24ghantatv",
+  "title": "Zee 24 Ghanta",
+  "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",
+  "stream_url": "https://z5ak-cmaflive.zee5.com/cmaf/live/2105511/ZEE24GHANTAELE/master.m3u8?hdntl=exp=1755828048~acl=%2f*~data=hdntl~hmac=3b808c4e9882eae1cb2706d886cd6b4e3b7b1f950097e78b9bd5dcfca5f42655",
+  "license_url": "",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36",
+  "cookie": "hdntl=exp=1755828048~acl=%2f*~data=hdntl~hmac=3b808c4e9882eae1cb2706d886cd6b4e3b7b1f950097e78b9bd5dcfca5f42655"
+},
+  {
+    "id": "687",
+    "title": "News Time TV",
+    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Time_TV.png",
+    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=687",
+    "license_url": "https://clkey.vercel.app/api/results.php?keyid=7048262f11e55561a9a81d29f06663ba&key=b8c5cacc292a0c04fb5850f8482c672d",
     "user_agent": "",
     "cookie": ""
   },
   {
-    "id": "sam-INBD25000081V",
-    "title": "News18 Bangla",
-    "logo_url": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000081V_20240131T032503SQUARE.png_20240131032505.png",
-    "stream_url": "https://jmp2.uk/sam-INBD25000081V.m3u8",
-    "license_url": "",
-    "user_agent": "",
-    "cookie": ""
- },
+  "id": "717",
+  "title": "News18 Bangla News",
+  "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Bangla_News.png",
+  "stream_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ETV_Bangla_News_BTS/output/index.mpd?__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303&xxx=%7Ccookie=__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303",
+  "license_url": "https://clkey.vercel.app/api/results.php?keyid=976b5fb0419b54929085f58d32ccf893&key=f5cbc24bcfba9ab4258e795660135415",
+  "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
+  "cookie": "__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303"
+},
  {
-    "id": "1264",
-    "title": "Kolkata TV",
-    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Kolkata_TV.png",
-    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=1264",
-    "license_url": "https://clkey.vercel.app/api/results.php?keyid=6276561f80055244831684aa6279843b&key=174bbda82670eca1b8702488f77a181a",
-    "user_agent": "",
-    "cookie": ""
- },
+  "id": "1264",
+  "title": "Kolkata TV",
+  "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/Kolkata_TV.png",
+  "stream_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Kolkata_TV_BTS/output/index.mpd?__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303&xxx=%7Ccookie=__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303",
+  "license_url": "https://clkey.vercel.app/api/results.php?keyid=6276561f80055244831684aa6279843b&key=174bbda82670eca1b8702488f77a181a",
+  "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
+  "cookie": "__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303"
+},
  {
     "id": "r-bangla",
     "title": "Republic Bangla",
@@ -45,14 +54,14 @@
     "cookie": ""
   },
   {
-    "id": "687",
-    "title": "News Time TV",
-    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Time_TV.png",
-    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=687",
-    "license_url": "https://clkey.vercel.app/api/results.php?keyid=7048262f11e55561a9a81d29f06663ba&key=b8c5cacc292a0c04fb5850f8482c672d",
-    "user_agent": "",
-    "cookie": ""
-   },
+  "id": "687",
+  "title": "News Time TV",
+  "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Time_TV.png",
+  "stream_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/News_Time_TV_BTS/output/index.mpd?__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303&xxx=%7Ccookie=__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303",
+  "license_url": "https://clkey.vercel.app/api/results.php?keyid=7048262f11e55561a9a81d29f06663ba&key=b8c5cacc292a0c04fb5850f8482c672d",
+  "user_agent": "plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
+  "cookie": "__hdnea__=st=1755741398~exp=1755827798~acl=/*~hmac=25d569fcdc3da8c84eb4ab4b6ce7f92c55ed42209483e621a5cf1cfa6ff9a303"
+},
    {
     "id": "sony-ten-1-hd",
     "title": "Sony Sports Ten 1 HD",
@@ -194,15 +203,6 @@
     "logo_url": "https://i.postimg.cc/d00sTpK0/SONY-SPORTS-TEN-1-HD.png",
     "stream_url": "https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8",
     "license_url": "",
-    "user_agent": "",
-    "cookie": ""
-  },
-  {
-    "id": "687",
-    "title": "News Time TV",
-    "logo_url": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Time_TV.png",
-    "stream_url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=687",
-    "license_url": "https://clkey.vercel.app/api/results.php?keyid=7048262f11e55561a9a81d29f06663ba&key=b8c5cacc292a0c04fb5850f8482c672d",
     "user_agent": "",
     "cookie": ""
   },
