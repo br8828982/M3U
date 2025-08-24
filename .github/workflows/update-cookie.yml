@@ -1,4 +1,4 @@
-name: Update tokens (__hdnea__ + hdntl) + Fancode live in auto.m3u
+name: Update tokens (__hdnea__ + hdntl)
 
 on:
   schedule:
@@ -48,21 +48,6 @@ jobs:
           }
         ' auto.m3u > temp.m3u && mv temp.m3u auto.m3u
 
-    - name: Update Fancode live events in auto.m3u
-      run: |
-        curl -sL -o fancode.m3u "https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.m3u"
-
-        # Remove old block between FANCODE-BEGIN and FANCODE-END
-        sed -i '/#FANCODE-BEGIN/,/#FANCODE-END/d' auto.m3u
-
-        # Append new block at the end
-        {
-          echo ""
-          echo "#FANCODE-BEGIN"
-          grep -A1 '^#EXTINF' fancode.m3u
-          echo "#FANCODE-END"
-        } >> auto.m3u
-
     - name: Commit and push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -70,5 +55,6 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add auto.m3u
-        git commit -m "Update tokens (__hdnea__ + hdntl) and Fancode live in auto.m3u" || echo "No changes"
+        git commit -m "Update tokens (__hdnea__ + hdntl) in auto.m3u" || echo "No changes"
         git push origin HEAD:main
+        
