@@ -1,4 +1,4 @@
-name: Update tokens (__hdnea__ + hdntl)
+name: Update tokens (__hdnea__ + hdntl) in auto.m3u
 
 on:
   schedule:
@@ -19,12 +19,14 @@ jobs:
         curl -sL -o jio.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/jstar.m3u"
         jio_cookie_line=$(grep -m1 '#EXTHTTP' jio.m3u)
         jio_cookie=$(echo "$jio_cookie_line" | grep -o '__hdnea__=[^"]*')
+
         echo "$jio_cookie_line" > jio_cookie_line.txt
         echo "$jio_cookie" > jio_cookie.txt
 
         # Fetch Zee5 playlist (for hdntl)
         curl -sL -o zee.m3u "https://raw.githubusercontent.com/alex4528/m3u/refs/heads/main/z5.m3u"
         zee_hdntl=$(grep -o 'hdntl=[^"]*' zee.m3u | head -n1)
+
         echo "$zee_hdntl" > zee_hdntl.txt
 
     - name: Replace both tokens in auto.m3u
@@ -35,13 +37,17 @@ jobs:
 
         awk -v jio="$jio_cookie" -v jsonline="$jio_json" -v zee="$zee_hdntl" '
           {
+            # Replace JioTV cookie line
             if ($0 ~ /^#EXTHTTP:/) {
               print jsonline;
               next;
             }
 
+            # Replace Jio __hdnea__ tokens
             gsub(/__hdnea__=[^&"]+/, jio);
-            gsub(/cookie=__hdnea__%3D[^&"]+/, "cookie=" jio);
+            gsub(/cookie=__hdnea__%3D[^&"]+/, "cookie=" jio); # URL-encoded part
+
+            # Replace Zee5 hdntl token
             gsub(/hdntl=[^&"]+/, zee);
 
             print;
@@ -57,4 +63,3 @@ jobs:
         git add auto.m3u
         git commit -m "Update tokens (__hdnea__ + hdntl) in auto.m3u" || echo "No changes"
         git push origin HEAD:main
-        
