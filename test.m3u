@@ -6,30 +6,22 @@
 #KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png" group-title="JioTV",Disney Channel
+#EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png" group-title="JioTV",Disney Channel
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1755987709~exp=1756074109~acl=/*~hmac=bf894d1b5f307879c3f83ad99cd23810c6d84c6785de840aeaef105b89a82908
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
 https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1755987709~exp=1756074109~acl=/*~hmac=bf894d1b5f307879c3f83ad99cd23810c6d84c6785de840aeaef105b89a82908&xxx=%7Ccookie=__hdnea__=st=1755987709~exp=1756074109~acl=/*~hmac=bf894d1b5f307879c3f83ad99cd23810c6d84c6785de840aeaef105b89a82908
 
-
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png" group-title="JioTV",Zee Cinema HD
+#EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png" group-title="JioTV",Zee Cinema HD
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
 
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/XYF71G8F/SONY-MAX-HD.png" group-title="JioTV",Sony MAX HD
+#EXTINF:-1, tvg-logo="https://i.postimg.cc/XYF71G8F/SONY-MAX-HD.png" group-title="JioTV",Sony MAX HD
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
 https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8
-
