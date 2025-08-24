@@ -7,3 +7,49 @@
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://joker-verse.vercel.app/wv_license_capture?uid=549491648
 https://cdn.bitmovin.com/content/assets/art-of-motion_drm/mpds/11331.mpd
+
+#EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png" group-title="JioTV",Zee Cinema HD
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
+
+#EXT-X-VERSION:3
+#EXTINF:0,Pixeldrain [WEB.DL.Hindi.DDP5.1.ESub.HEVC.x265][16.25 GB]
+https://pixeldrain.dev/api/file/4p2waEPD?download
+#EXTINF:0,null [FSL Server] [WEB.DL.Hindi.DDP5.1.ESub.HEVC.x265][16.25 GB]
+https://fsl.fastcloud.lol/Maalik.2025.4K-2160p.SDR.AMZN.WEB-DL.Hindi.DDP5.1.ESub.HEVC.x265- moviesdrives.cv.mkv?token=1756028331
+#EXTINF:0,Pixeldrain [WEB.DL.5.1.ESub.x264][2.97 GB]
+https://pixeldrain.dev/api/file/Qnjs7JgL?download
+#EXTINF:0,null [FSL Server] [WEB.DL.5.1.ESub.x264][2.97 GB]
+https://fsl.fastcloud.lol/Maalik.2025.1080p.Hindi.WEB-DL.5.1.ESub.x264- moviesdrives.cv.mkv?token=1756028333
+#EXTINF:0,Pixeldrain [WEB.DL.5.1.ESub.x265][2 GB]
+https://pixeldrain.dev/api/file/AyH3p2dr?download
+#EXTINF:0,null [FSL Server] [WEB.DL.5.1.ESub.x265][2 GB]
+https://fsl.fastcloud.lol/Maalik.2025.1080p.HEVC.Hindi.WEB-DL.5.1.ESub.x265- moviesdrives.cv.mkv?token=1756030510
+#EXTINF:0,null [FSL Server] [WEB.DL.Hindi.DDP5.1.ESub.x264][8.16 GB]
+https://fsl.fastcloud.lol/Maalik.2025.1080p.AMZN.WEB-DL.Hindi.DDP5.1.ESub.x264- moviesdrives.cv.mkv?token=1756027025
+#EXTINF:0,Pixeldrain [WEB.DL.Hindi.DDP5.1.ESub.x264][8.16 GB]
+https://pixeldrain.dev/api/file/C7f48DdP?download
+#EXTINF:0,Pixeldrain [WEB.DL.5.1.ESub.x265][2.36 GB]
+https://pixeldrain.dev/api/file/PoCPywMf?download
+#EXTINF:0,null [FSL Server] [WEB.DL.5.1.ESub.x265][2.36 GB]
+https://fsl.fastcloud.lol/Maalik.2025.1080p.10Bit.HEVC.Hindi.WEB-DL.5.1.ESub.x265- moviesdrives.cv.mkv?token=1756025506
+#EXTINF:0,Pixeldrain [WEB.DL.5.1.ESub.x264 ][1.31 GB]
+https://pixeldrain.dev/api/file/fmPH5Xsf?download
+#EXTINF:0,Pixeldrain [WEB.DL.5.1.ESub.x265][1017.43 MB]
+https://pixeldrain.dev/api/file/iWKAnc7H?download
+#EXTINF:0,null [FSL Server] [WEB.DL.5.1.ESub.x265][1017.43 MB]
+https://fsl.fastcloud.lol/Maalik.2025.720p.10Bit.HEVC.Hindi.WEB-DL.5.1.ESub.x265- moviesdrives.cv.mkv?token=1756032463
+#EXTINF:0,null [FSL Server] [WEB.DL.5.1.ESub.x264 ][1.31 GB]
+https://fsl.fastcloud.lol/Maalik.2025.720p.Hindi.WEB-DL.5.1.ESub.x264 - moviesdrives.cv.mkv?token=1756028333
+#EXTINF:0,Pixeldrain [WEB.DL.ESub.x265][863.19 MB]
+https://pixeldrain.dev/api/file/5YnmU9ig?download
+#EXTINF:0,null [FSL Server] [WEB.DL.ESub.x265][863.19 MB]
+https://fsl.fastcloud.lol/Maalik.2025.720p.HEVC.Hindi.WEB-DL.ESub.x265- moviesdrives.cv.mkv?token=1756028331
+#EXTINF:0,Pixeldrain [WEB.DL.ESub.x264][514 MB]
+https://pixeldrain.dev/api/file/Uc8EzDxJ?download
+#EXTINF:0,null [FSL Server] [WEB.DL.ESub.x264][514 MB]
+https://fsl.fastcloud.lol/Maalik.2025.480p.Hindi.WEB-DL.ESub.x264- moviesdrives.cv.mkv?token=1756028333
+#EXT-X-ENDLIST
