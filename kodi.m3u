@@ -413,7 +413,3 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/9XM_BTS/output/index.mpd?__hdnea__=st=175
 #KODIPROP:inputstream.adaptive.drm={"org.w3.clearkey":{"license":{"keyids":{"27fb90989a8a59998a9f2c9fe732d3c6":"4e5f29a21208f58c22ef9f83d56bf023"}}}}
 #KODIPROP:inputstream.adaptive.common_headers=User-Agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0&Cookie=__hdnea__=st=1756293580~exp=1756379980~acl=/*~hmac=39e590e89f3fbe28611a8838736e747747fa23c7774f4abfc92613fe7f3b4334
 https://jiotvmblive.cdn.jio.com/bpk-tv/9X_Tashan_BTS/output/index.mpd?__hdnea__=st=1756293580~exp=1756379980~acl=/*~hmac=39e590e89f3fbe28611a8838736e747747fa23c7774f4abfc92613fe7f3b4334
-
-#EXT-X-VERSION:3
-#EXTINF:0,Pixeldrain [WEB.DL.Hindi.DDP5.1.ESub.HEVC.x265][16.25 GB]
-https://pixeldrain.dev/api/file/4p2waEPD?download
